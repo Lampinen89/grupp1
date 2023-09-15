@@ -1,0 +1,29 @@
+:root {
+    --main-bg-color: #ffffff;
+    --second-bg-color: #f2f2f2;
+    --blue-bg-color: #032e50ea;
+    --green-bg-color: #2E533A, rgb(46,83,58);
+
+    --regular-font: font-family: 'Calibre Regular';
+    --title-font: font-family: 'Calibre Medium';
+}
+
+@font-face {
+    font-family: 'Calibre Regular', sans-serif;
+    /* src: local(CalibreRegular) Kan vara så att Local ska användas eftersom vår referens kommer ifrån
+        internt (calibre-font) och inte ifrån någon url från databas. */
+    src: url(../calibre-font/CalibreRegular.otf); 
+    /* src url ska vara länkat till font-folder som vi använder senare */
+}
+@font-face {
+    font-family: 'Calibre Medium', sans-serif;
+    src: url(../calibre-font/CalibreMedium.otf); 
+    /* src url ska vara länkat till font-folder som vi använder senare */
+}
+/*             -----EXAMPLE-----
+body
+{
+    background-color: var(--green-bg-color);   
+    font-family: var(--regular-font);
+} 
+*/
