@@ -9,15 +9,15 @@
 }
 
 @font-face {
-    font-family: 'Calibre Regular', sans-serif;
-    /* src: local(CalibreRegular) Kan vara så att Local ska användas eftersom vår referens kommer ifrån
+    font-family: 'Calibre Regular';
+    src: url("../calibre-font/CalibreRegular.otf") format("opentype"); 
+    /* Kan vara så att Local ska användas eftersom vår referens kommer ifrån
         internt (calibre-font) och inte ifrån någon url från databas. */
-    src: url(../calibre-font/CalibreRegular.otf); 
     /* src url ska vara länkat till font-folder som vi använder senare */
 }
 @font-face {
-    font-family: 'Calibre Medium', sans-serif;
-    src: url(../calibre-font/CalibreMedium.otf); 
+    font-family: 'Calibre Medium';
+    src: url("../calibre-font/CalibreMedium.otf") format("opentype"); 
     /* src url ska vara länkat till font-folder som vi använder senare */
 }
 /*             -----EXAMPLE-----
