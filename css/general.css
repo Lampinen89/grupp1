@@ -121,7 +121,10 @@ li {
     width:100%;
     height: 100%;
     border: 1px solid white;
-    
+}
+
+.hero-contact {
+    background-image: linear-gradient(rgba(41, 40, 40, 0.5), rgba(27, 27, 27, 0.5)), url(../contact-images/hero-contact.jpg);
 }
 
 .logga-outline-section {
