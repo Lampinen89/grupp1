@@ -147,3 +147,13 @@ li {
     font-size: 60px;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.footer {
+    margin-top: 8%;
+    padding: 3%;
+    min-height: 100px;
+    background-color: #102e4e;
+    width: 100%;
+    color: white;
+    align-self:center;
+}
