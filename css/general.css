@@ -112,7 +112,7 @@ li {
 
 
  .hero-1 {
-    background-image: linear-gradient(rgba(41, 40, 40, 0.5), rgba(27, 27, 27, 0.5)), url(main-images/hero-img.jpg);
+    background-image: linear-gradient(rgba(41, 40, 40, 0.5), rgba(27, 27, 27, 0.5)), url(../main-images/hero-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -125,7 +125,7 @@ li {
 }
 
 .logga-outline-section {
-  background-image: url(main-images/logga-outline.png);
+  background-image: url(../main-images/logga-outline.png);
   background-position: center;
   background-repeat: no-repeat;
   margin: auto;
