@@ -31,10 +31,6 @@ a {
     color: black;
 }
 
-a:hover {
-    color: var(--green-bg-color);
-}
-
 h2::after,
 h3::after {
     content: '';
@@ -148,4 +144,8 @@ img {
 .address__text p {
     margin-top: 3rem;
     line-height: 2;
+}
+
+.address__text p a:hover {
+    color: var(--green-bg-color);
 }
