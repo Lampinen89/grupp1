@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: var(--regular-font);
+}
+
+h2, h3 {
+    font-family: var(--title-font);
+    color: var(--blue-bg-color);
+    position: relative;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h2::after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 5px;
+    background-color: var(--blue-bg-color);
+    position: absolute;
+    margin: 1rem auto;
+    /* top: 40px;
+    left: 40px; */
+}
+
+input,
+textarea {
+    font-family: var(--regular-font);
+    font-size: 1rem;
+}
+
+input::placeholder,
+textarea::placeholder,
+input[value] {
+    font-family: var(--regular-font);
+    font-size: 1rem;
+}
+
+.contact-section {
+    display: grid;
+    grid-template-columns: [full-start] minmax(30px, 1fr) [inner-start] minmax(0, 1220px) [inner-end] minmax(30px, 1fr) [full-end];
+}
+
+.contact__inner {
+    grid-column: inner;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact__message {
+    margin-top: 10rem;
+    width: 50%;
+    /* padding: 0 15rem; */
+}
+
+.contact__form {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.contact__input {
+    padding: 1rem;
+    border: 1px solid #d5d5d5;
+}
+
+.contact__submit {
+    padding: 1rem;
+    width: 30%;
+    border-radius: 30px;
+    color: var(--main-bg-color);
+    background-color: var(--green-bg-color);
+}
+
+.contact__conditions {
+    font-size: 0.8em;
+    margin-top: 1.5rem;
+}
