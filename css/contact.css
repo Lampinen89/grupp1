@@ -75,7 +75,7 @@ img {
 
 .contact-section {
     display: grid;
-    grid-template-columns: [full-start] minmax(30px, 1fr) [inner-start] minmax(0, 1220px) [inner-end] minmax(30px, 1fr) [full-end];
+    grid-template-columns: [full-start] minmax(30px, 1fr) [inner-start] minmax(0, 1920px) [inner-end] minmax(30px, 1fr) [full-end];
 }
 
 .contact__inner {
