@@ -71,11 +71,12 @@ li {
 
  li > a {
     font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: var(--regular-font), sans-serif;
     /* color: white; */
     font-weight: bold;
     align-self: center;
-    color:#102e4e;
+    color: var(--blue-bg-color);
     
 
 }
@@ -88,7 +89,7 @@ li {
 .a-hover {
     display: inline-block;
     position: relative;
-    color: #102e4e;
+    color: var(--blue-bg-color);
   }
   
   .a-hover::after {
@@ -99,7 +100,7 @@ li {
     height: 3px;
     bottom: 0;
     left: 0;
-    background-color: #2E533A;
+    background-color: var(--green-bg-color);
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
   }
@@ -120,7 +121,7 @@ li {
     margin-top:0px;
     width:100%;
     height: 100%;
-    border: 1px solid white;
+    border: 1px solid var(--main-bg-color);
 }
 
 .hero-contact {
@@ -146,17 +147,18 @@ li {
 }
 
 .hero-1-h1 {
-    color: white;
+    color: var(--main-bg-color);
     font-size: 60px;
-    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: var(--title-font);
 }
 
 .footer {
     margin-top: 8%;
     padding: 3%;
     min-height: 100px;
-    background-color: #102e4e;
+    background-color: var(--blue-bg-color);
     width: 100%;
-    color: white;
+    color: var(--main-bg-color);
     align-self:center;
 }
