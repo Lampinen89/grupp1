@@ -148,6 +148,34 @@ li {
     font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.button-section,
+.main-section-buttons {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.button,
+.main-button-1,
+.main-button-2
+                 {
+    background-color: #2E533A;
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 6% 2%;
+    cursor: pointer;
+    gap: 10%;
+}
+
 .footer {
     margin-top: 8%;
     padding: 3%;
