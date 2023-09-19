@@ -1,6 +1,33 @@
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 1rem;
+}
+
+button {
+    background-color: var(--green-bg-color);
+    color: var(--main-bg-color);
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: solid 1px transparent;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--main-bg-color);
+    color: var(--green-bg-color);
+    border: solid 1px var(--green-bg-color);
+}
+
+h2 {
+    font-family: var(--title-font);
+    font-weight: 500;
+    padding: 1rem 0;
+}
+
+h3 {
+    color: var(--blue-bg-color);
+    font-weight: 500;
 }
 
 #till-salu .hero-1 {
@@ -11,12 +38,52 @@
     margin: 0;
 }
 
+#sales-search {
+    background: var(--blue-bg-color);
+    color: #FFF;
+}
+
+#sales-search .container {
+    padding: 4rem;
+    padding-top: 2rem;
+}
+
+#sales-search .search-filter {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+#sales-search input {
+    font-size: 1.25rem;
+    padding: 1rem;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.search-container {
+    display: flex;
+    gap: 2rem;
+}
+
+.search-container input {
+    font-size: 1rem;
+    width: 100%;
+}
+
+.search-container button {
+    align-self: flex-start;
+    padding: 1.25rem 4rem;
+}
+
 #sales-list {
     background-color: var(--second-bg-color);
     padding: 1rem 0;
 }
 
 #sales-list img {
+    object-fit: cover;
     max-height: 230px;
     width: 100%;
 }
@@ -52,20 +119,32 @@
     margin-top: 1rem;
 }
 
-button {
-    background-color: var(--green-bg-color);
-    color: var(--main-bg-color);
-    padding: 0.5rem;
-    border-radius: 4px;
+#contact-info {
+    padding: 2rem 0;
 }
 
-h2 {
-    font-family: var(--title-font);
-    font-weight: 500;
-    padding: 1rem 0;
+    #contact-info .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
-h3 {
-    color: var(--blue-bg-color);
-    font-weight: 500;
+#contact-info .container img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#contact-info .contact-text {
+    padding: 2rem 4rem;
+}
+
+
+#contact-info .contact-text p {
+    line-height: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#contact-info .contact-text button {
+    margin-top: 1rem;
+    padding: 0.75rem 1rem;
 }
