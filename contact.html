@@ -30,7 +30,7 @@
 
         </header>
         
-        <hero class="hero-1  hero-contact">
+        <section class="hero-1  hero-contact">
             <section class="hero-1-section">
 
                 <section class="logga-outline-section">
@@ -44,16 +44,32 @@
                 </section> -->
 
             </section>
-        </hero>
+        </section>
 
         <div class="contact-section">
             <div class="contact__inner">
 
                 <section class="contact__message">
                     <h2>Kontakta oss</h2>
-                    <form class="contact__form" action="">
-                        <input class="contact__input" type="text" name="name" placeholder="Namn*" required>
-                        <input class="contact__input" type="email" name="e-post" placeholder="E-post address*" required>
+                    <form class="contact__form" action="" method="post">
+                        <div class="input__row input__row--radio">
+                            <div class="input__radio">
+                                <input type="radio" name="contactas" id="privatperson" value="privatperson">
+                                <label for="privatperson">Privatperson</label>
+                            </div>
+                            <div class="input__radio">
+                                <input type="radio" name="contactas" id="företag" value="företag">
+                                <label for="företag">Företag</label>
+                            </div>
+                        </div>
+                        <div class="input__row">
+                            <input class="contact__input" type="text" name="first-name" placeholder="Förnamn*" required>
+                            <input class="contact__input" type="text" name="last-name" placeholder="Efternamn*" required>
+                        </div>
+                        <div class="input__row">
+                            <input class="contact__input" type="text" name="telefon" placeholder="Telefonnummer*" required>
+                            <input class="contact__input" type="email" name="e-post" placeholder="E-post address*" required>
+                        </div>
                         <input class="contact__input" type="text" name="title" placeholder="Titel">
                         <textarea class="contact__input" name="message" cols="30" rows="7" placeholder="Meddelande*" required></textarea>
                         <input class="contact__submit" type="submit" name="submit" value="Skicka">
@@ -62,7 +78,7 @@
                 </section>
     
                 <section class="contact__address">
-                    <img src="contact-images/address.jpg" alt="" class="address__image">
+                    <img src="main-images/address.jpg" alt="street" class="address__image">
                     <div class="address__text">
                         <h3>Lantbruksmäklarna</h3>
                         <p>
@@ -76,9 +92,40 @@
 
             </div>
         </div>
-	
+
+        <!-- <div class="back-to-top">
+            <a class="back-to-top-a" href="#header-id">Tillbaka Till Toppen </a>
+        </div> -->
+        
         <footer class="footer">
-            &#169; 2023         
+
+            <section class="footer__top">
+
+                <section class="logga">
+                    <a href="index.html"><img src="main-images/logga.png" alt="landbruksmäklarna-logga"></a>
+                </section>
+                
+                <nav class="navigation footer__nav">
+                    <ul class="footer__list">
+                        <li><a href="index.html">Hem</a></li>
+                        <li><a href="">Köpa Fastighet</a></li>
+                        <li><a href="sell.html">Sälja Fastighet</a></li>
+                        <li><a href="">Fastigheter Till Salu</a></li>
+                        <li><a href="contact.html">Kontakt</a></li>
+                    </ul>
+                </nav>
+
+                <ul class="social">
+                    <li><a href=""><img class="social__icon" src="social-icons/facebook.svg" alt=""></a></li>
+                    <li><a href=""><img class="social__icon" src="social-icons/github.svg" alt=""></a></li>
+                    <li><a href=""><img class="social__icon" src="social-icons/linkedin.svg" alt=""></a></li>
+                    <li><a href=""><img class="social__icon" src="social-icons/youtube.svg" alt=""></a></li>
+                </ul>
+
+            </section>
+
+            <p class="copyright">&#169;2023 Lantbruksmäklarna, alla rättigheter reserverade.</p>    
+
         </footer>
 
     </section>
