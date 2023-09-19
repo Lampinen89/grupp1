@@ -94,7 +94,6 @@ li > a {
     transform-origin: bottom left;
 }
 
-
 .hero-1 {
     background-image: linear-gradient(rgba(41, 40, 40, 0.5), rgba(27, 27, 27, 0.5)), url(../main-images/hero-img.jpg);
     background-repeat: no-repeat;
