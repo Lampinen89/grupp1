@@ -40,8 +40,6 @@ h3::after {
     background-color: var(--green-bg-color);
     position: absolute;
     margin: 1rem auto;
-    /* top: 40px;
-    left: 40px; */
 }
 
 input,
