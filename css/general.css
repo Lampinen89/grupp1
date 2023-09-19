@@ -10,7 +10,6 @@ html, body {
     
 }
 
-
 #wrapper {
     width: 100%;
     height: 100vh;
@@ -124,9 +123,11 @@ li {
     border: 1px solid var(--main-bg-color);
 }
 
+/* new code */
 .hero-contact {
-    background-image: linear-gradient(rgba(41, 40, 40, 0.5), rgba(27, 27, 27, 0.5)), url(../contact-images/hero-contact.jpg);
+    background-image: linear-gradient(rgba(41, 40, 40, 0.5), rgba(27, 27, 27, 0.5)), url(../main-images/hero-contact.jpg);
 }
+/* end */
 
 .logga-outline-section {
   background-image: url(../main-images/logga-outline.png);
@@ -136,8 +137,6 @@ li {
   height: 100px;
   width: 300px;
 }
-
-
 
 .hero-1-section {
     display: grid;
@@ -160,5 +159,105 @@ li {
     background-color: var(--blue-bg-color);
     width: 100%;
     color: var(--main-bg-color);
-    align-self:center;
+    align-self: center;
 }
+
+
+/* new code */
+.footer__top {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.footer__nav {
+    margin: 0;
+    height: auto;
+}
+
+.footer__nav li {
+    width: auto;
+}
+
+.footer__nav a {
+    color: var(--main-bg-color);
+}
+
+.footer__nav a:hover {
+    color: #dddddd;
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+.social {
+    display: flex;
+    gap: 1.5rem;
+    align-self: flex-end;
+    padding-bottom: 12px;
+}
+
+.social li {
+    width: auto;
+}
+
+.social__icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 1rem;
+    color: #dddddd;
+}
+
+
+/* media */
+
+@media screen and ( max-width: 1200px )  {
+    
+}
+
+@media screen and ( max-width: 960px )  {
+
+    .header .navigation {
+        display: none;
+    }
+
+    .header {
+        justify-content: center;
+    }
+
+    .footer__top {
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+    }
+
+    .footer__top .logga {
+        margin: 0;
+    }
+    
+}
+
+@media screen and ( max-width: 768px )  {
+    
+    .footer__top {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .logga img {
+        margin: 0 auto;
+    }
+
+    .social {
+        justify-content: center;
+    }
+    
+}
+/* end */
