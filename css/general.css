@@ -177,6 +177,24 @@ li {
     gap: 10%;
 }
 
+.back-to-top {
+    margin-top: 6%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+   
+}
+
+.back-to-top-a {
+    align-self: flex-end;
+    color:#2E533A;
+    font-size: 18px;
+    padding: 10px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .footer {
     margin-top: 1%;
     padding: 3%;
