@@ -7,6 +7,7 @@
 
 html, body {
     width: 100%;
+    scroll-behavior: smooth;
     
 }
 
@@ -112,7 +113,7 @@ li {
 
 
  .hero-1 {
-    background-image: linear-gradient(rgba(41, 40, 40, 0.5), rgba(27, 27, 27, 0.5)), url(main-images/hero-img.jpg);
+    background-image: linear-gradient(rgba(41, 40, 40, 0.5), rgba(27, 27, 27, 0.5)), url(../main-images/hero-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -125,7 +126,7 @@ li {
 }
 
 .logga-outline-section {
-  background-image: url(main-images/logga-outline.png);
+  background-image: url(../main-images/logga-outline.png);
   background-position: center;
   background-repeat: no-repeat;
   margin: auto;
@@ -148,8 +149,27 @@ li {
     font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
+.back-to-top {
+    margin-top: 6%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+   
+}
+
+.back-to-top-a {
+    align-self: flex-end;
+    color:#2E533A;
+    font-size: 18px;
+    padding: 10px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .footer {
-    margin-top: 8%;
+    margin-top: 1%;
     padding: 3%;
     min-height: 100px;
     background-color: #102e4e;
