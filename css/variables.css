@@ -1,29 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
 :root {
     --main-bg-color: #ffffff;
     --second-bg-color: #f2f2f2;
     --blue-bg-color: #102e4e;
-    --green-bg-color: #2E533A, rgb(46,83,58);
+    --green-bg-color: #2E533A;
 
-    --regular-font: font-family: 'Calibre Regular';
-    --title-font: font-family: 'Calibre Medium';
+    --title-font: 'Roboto';
+    --regular-font: 'Roboto';
 }
-
-@font-face {
-    font-family: 'Calibre Regular';
-    src: url("../calibre-font/CalibreRegular.otf") format("opentype"); 
-    /* Kan vara så att Local ska användas eftersom vår referens kommer ifrån
-        internt (calibre-font) och inte ifrån någon url från databas. */
-    /* src url ska vara länkat till font-folder som vi använder senare */
-}
-@font-face {
-    font-family: 'Calibre Medium';
-    src: url("../calibre-font/CalibreMedium.otf") format("opentype"); 
-    /* src url ska vara länkat till font-folder som vi använder senare */
-}
-/*             -----EXAMPLE-----
-body
-{
-    background-color: var(--green-bg-color);   
-    font-family: var(--regular-font);
-} 
-*/
