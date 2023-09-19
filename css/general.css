@@ -84,7 +84,7 @@ li > a {
     color: var(--blue-bg-color);
   }
   
-  .a-hover::after {
+.a-hover::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -95,16 +95,14 @@ li > a {
     background-color: var(--green-bg-color);
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
-  }
+}
   
-  .a-hover:hover::after {
+.a-hover:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
-  }
+}
 
-
-
- .hero-1 {
+.hero-1 {
     background-image: linear-gradient(rgba(41, 40, 40, 0.5), rgba(27, 27, 27, 0.5)), url(../main-images/hero-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
