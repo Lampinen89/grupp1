@@ -5,46 +5,48 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/variables.css">
         <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/tillsalu.css">
+        <link rel="stylesheet" href="css/till-salu.css">
         <title>Lantbruksmäklarna - till salu</title>
     </head>
 
-    <body>
-        <section id="wrapper">
+    <body id="till-salu">
+    
+        <div class="container">
             <header class="header">
-
-                <section class="logga">
-                    <a href="index.html">
-                        <img src="main-images/logga.png" alt="landbruksmäklarna-logga">
-                    </a>
-                </section>
-
+                <a href="index.html">
+                    <img src="main-images/logga.png" alt="landbruksmäklarna-logga">
+                </a>
+            
                 <nav class="navigation">
                     <ul>
-                        <!-- <li><a href="index.html">Hem</a></li> -->
                         <li><a class="a-hover" href="buy.html">Köpa Fastighet</a></li>
                         <li><a class="a-hover" href="salja-fastigheter.html">Sälja Fastighet</a></li>
-                        <li><a class="a-hover" href="tillsalu.html">Fastigheter Till Salu</a></li>
-                        <li><a class="a-hover" href="contact.html">Kontakt</a></li>
+                        <li><a class="a-hover" href="till-salu.html">Fastigheter Till Salu</a></li>
+                        <li><a class="a-hover" href="contact.html">Kontakta<br>oss</a></li>
                     </ul>
                 </nav>
-
             </header>
-        </section>
+        </div>
 
-        <section class="hero-1">
-            <div class="hero-1-section">
-                <div class="logga-outline-section"></div>
-                <h1 class="hero-1-h1">Köpa fastighet</h1>
-                <h1 class="hero-1-h1">Lantbruksfastigheter</h1>
-                <div class="button-section">
-                    <a href="#" class="button">Köpa Fastighet</a>
-                    <a href="#" class="button">Sälja Fastighet</a>
-                </div>
+        <section id="sales-search">
+            <div class="container">
+                <form action="till-salu.html">
+                    <h2>Sök fastighet</h2>
+                    <div class="search-container">
+                        <div>
+                            <input type="text" placeholder="Ange kommun, län, ort eller område">
+                            <div class="search-filter">
+                                <input type="number" placeholder="Pris (min)">
+                                <input type="number" placeholder="Pris (max)">
+                                <input type="number" placeholder="Boyta (min)">
+                                <input type="number" placeholder="Boyta (max)">
+                            </div>
+                        </div>
+                        <button>Sök!</button>
+                    </div>
+                </form>
             </div>
         </section>
-
-
 
         <section id="sales-list">
             
@@ -55,7 +57,7 @@
             <div id="items" class="container">    
 
                 <div>
-                    <img src="main-images/main-section-img.jpg" title="Pajala">
+                    <img src="media/till_salu/cottage-2955582_640.jpg" title="Pajala">
                     <div class="list-item-info">
                         <span>Lantbruk</span>
                         <h3>Lantbruksfastighet i Pajala</h3>
@@ -68,7 +70,7 @@
                 </div>
                 
                 <div>
-                    <img src="main-images/main-section-img.jpg" title="Pajala">
+                    <img src="media/till_salu/farm-yard-2702094_640.jpeg" title="Pajala">
                     <div class="list-item-info">
                         <span>Lantbruk</span>
                         <h3>Lantbruksfastighet i Pajala</h3>
@@ -81,7 +83,7 @@
                 </div>
 
                 <div>
-                    <img src="main-images/main-section-img.jpg" title="Pajala">
+                    <img src="media/till_salu/haunted-house-7508035_640.jpg" title="Pajala">
                     <div class="list-item-info">
                         <span>Lantbruk</span>
                         <h3>Lantbruksfastighet i Pajala</h3>
@@ -94,7 +96,7 @@
                 </div>
 
                 <div>
-                    <img src="main-images/object-1.jpg" title="Pajala">
+                    <img src="media/till_salu/house-6387074_640.jpg" title="Pajala">
                     <div class="list-item-info">
                         <span>Lantbruk</span>
                         <h3>Lantbruksfastighet i Pajala</h3>
@@ -106,20 +108,7 @@
                     </div>
                 </div>
                 <div>
-                    <img src="main-images/main-section-img.jpg" title="Pajala">
-                    <div class="list-item-info">
-                        <span>Lantbruk</span>
-                        <h3>Lantbruksfastighet i Pajala</h3>
-                        <span>Norrskensvägen 55</span>
-                        <div class="list-item-footer">
-                            <h3>100 000 SEK</h3>
-                            <button>Visa fastighet</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <img src="main-images/main-section-img.jpg" title="Pajala">
+                    <img src="media/till_salu/house-6967908_640.jpg" title="Pajala">
                     <div class="list-item-info">
                         <span>Lantbruk</span>
                         <h3>Lantbruksfastighet i Pajala</h3>
@@ -132,7 +121,7 @@
                 </div>
 
                 <div>
-                    <img src="main-images/main-section-img.jpg" title="Pajala">
+                    <img src="media/till_salu/houses-8010401_640.jpg" title="Pajala">
                     <div class="list-item-info">
                         <span>Lantbruk</span>
                         <h3>Lantbruksfastighet i Pajala</h3>
@@ -145,7 +134,7 @@
                 </div>
 
                 <div>
-                    <img src="main-images/main-section-img.jpg" title="Pajala">
+                    <img src="media/till_salu/iceland-219182_640.jpg" title="Pajala">
                     <div class="list-item-info">
                         <span>Lantbruk</span>
                         <h3>Lantbruksfastighet i Pajala</h3>
@@ -158,7 +147,20 @@
                 </div>
 
                 <div>
-                    <img src="main-images/main-section-img.jpg" title="Pajala">
+                    <img src="media/till_salu/mountains-1547302_640.jpg" title="Pajala">
+                    <div class="list-item-info">
+                        <span>Lantbruk</span>
+                        <h3>Lantbruksfastighet i Pajala</h3>
+                        <span>Norrskensvägen 55</span>
+                        <div class="list-item-footer">
+                            <h3>100 000 SEK</h3>
+                            <button>Visa fastighet</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="media/till_salu/stilt-house-1626354_640.jpg" title="Pajala">
                     <div class="list-item-info">
                         <span>Lantbruk</span>
                         <h3>Lantbruksfastighet i Pajala</h3>
@@ -172,7 +174,33 @@
 
             </div>
         </section>
-            
+        
+        <section id="contact-info">
+            <div class="container">
+                <div>
+                    <img src="main-images/object-1.jpg" alt="">
+                </div>
+                <div class="contact-text">
+                    <h2>Vill du veta mer om våra tillgängliga fastigheter?</h2>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                        when an unknown printer took a galley of type and scrambled it to make a 
+                        type specimen book. 
+                        </p>
+                        <p>It has survived not only five centuries, but also the 
+                        leap into electronic typesetting, remaining essentially unchanged. 
+                        It was popularised in the 1960s with the release of Letraset sheets 
+                        containing Lorem Ipsum passages, and more recently with desktop publishing 
+                        software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                    <form action="contact.html">
+                        <button>Kontakta oss</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
         <footer class="footer">
             &#169; 2023
         </footer>
