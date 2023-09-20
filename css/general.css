@@ -11,7 +11,6 @@ html, body {
     
 }
 
-
 #wrapper {
     width: 100%;
     height: 100vh;
@@ -48,37 +47,31 @@ html, body {
     
 }
 
-
 .navigation > ul {
     margin: 0;
     padding: 0;
-    height:10%;
+    height: 10%;
     width: 100%;
     display: flex;
     list-style-type: none;
-    justify-content:flex-end; 
-    
-    
+    justify-content: flex-end;
 }
 
 li {
     width: 20%;
     align-items: center;
-/*     
- */    justify-content: center;
+    justify-content: center;
     display: flex;
-
 }
 
- li > a {
+li > a {
     font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: var(--regular-font), sans-serif;
     /* color: white; */
     font-weight: bold;
     align-self: center;
-    color:#102e4e;
-    
-
+    color: var(--blue-bg-color);
 }
 
 .navigation ul li a {
@@ -89,10 +82,10 @@ li {
 .a-hover {
     display: inline-block;
     position: relative;
-    color: #102e4e;
+    color: var(--blue-bg-color);
   }
   
-  .a-hover::after {
+.a-hover::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -100,19 +93,17 @@ li {
     height: 3px;
     bottom: 0;
     left: 0;
-    background-color: #2E533A;
+    background-color: var(--green-bg-color);
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
-  }
+}
   
-  .a-hover:hover::after {
+.a-hover:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
-  }
+}
 
-
-
- .hero-1 {
+.hero-1 {
     background-image: linear-gradient(rgba(41, 40, 40, 0.5), rgba(27, 27, 27, 0.5)), url(../main-images/hero-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -121,9 +112,14 @@ li {
     margin-top:0px;
     width:100%;
     height: 100%;
-    border: 1px solid white;
-    
+    border: 1px solid var(--main-bg-color);
 }
+
+/* new code */
+.hero-contact {
+    background-image: linear-gradient(rgba(41, 40, 40, 0.5), rgba(27, 27, 27, 0.5)), url(../main-images/hero-contact.jpg);
+}
+/* new code end */
 
 .logga-outline-section {
   background-image: url(../main-images/logga-outline.png);
@@ -134,8 +130,6 @@ li {
   width: 300px;
 }
 
-
-
 .hero-1-section {
     display: grid;
     place-items: center;
@@ -144,12 +138,13 @@ li {
 }
 
 .hero-1-h1 {
-    color: white;
+    color: var(--main-bg-color);
     font-size: 60px;
-    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: var(--title-font);
 }
 
-.button-section,
+/* .button-section,
 .main-section-buttons {
     width:100%;
     display: flex;
@@ -175,14 +170,115 @@ li {
     margin: 6% 2%;
     cursor: pointer;
     gap: 10%;
+} */
+
+/* Footer */
+.footer {
+    margin-top: 8%;
+    min-height: 100px;
+    background-color: var(--blue-bg-color);
+    width: 100%;
+    color: var(--main-bg-color);
+    align-self: center;
 }
 
-.footer {
-    margin-top: 1%;
-    padding: 3%;
-    min-height: 100px;
-    background-color: #102e4e;
-    width: 100%;
-    color: white;
-    align-self:center;
+.footer__top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
 }
+
+.footer__top .logga {
+    margin: 0;
+    align-self: center;
+}
+
+.footer__top .logga img {
+    margin: 0;
+    max-width: 250px;
+    width: 100%;
+}
+
+.footer__nav {
+    margin: 0;
+    height: auto;
+    padding-bottom: 4rem;
+}
+
+.footer__nav ul {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+}
+
+.footer__list li {
+    width: auto;
+}
+
+.footer__list a {
+    color: var(--main-bg-color);
+    font-weight: 400;
+}
+
+.footer__list a:hover {
+    color: #dddddd;
+}
+
+.social {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.social li {
+    width: auto;
+}
+
+.social__icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.copyright {
+    display: block;
+    padding-bottom: 2rem;
+    text-align: center;
+    font-size: 1rem;
+    color: #dddddd;
+}
+
+
+/* media */
+@media screen and ( max-width: 960px )  {
+
+    .header .navigation {
+        display: none;
+    }
+
+    .header {
+        justify-content: center;
+    }
+ 
+    .footer__nav ul {
+        gap: 3rem;
+    }
+
+    .footer__list a {
+        font-size: 1.1rem;
+    }
+    
+}
+
+@media screen and ( max-width: 768px )  {
+
+    .footer__nav ul {
+        flex-direction: column;
+    }
+    
+    .footer__nav ul {
+        gap: 1rem;
+    }
+    
+}
+/* end */
