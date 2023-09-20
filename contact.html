@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/css-contact/contact-main.css">
+    <link rel="stylesheet" href="css/css-contact/contact-media.css">
+    <title>Kontakt - Lantbruksmäklarna</title>
+</head>
+<body>
+
+    <section id="wrapper">
+
+        <header class="header">
+
+            <section class="logga">
+                <a href="index.html"><img src="main-images/logga.png" alt="landbruksmäklarna-logga"></a>
+            </section>
+
+            <nav class="navigation">
+                <ul>
+                    <li><a class="a-hover" href="buy.html">Köpa Fastighet</a></li>
+                    <li><a class="a-hover" href="sell.html">Sälja Fastighet</a></li>
+                    <li><a class="a-hover" href="tillsalu.html">Fastigheter Till Salu</a></li>
+                    <li><a class="a-hover" href="contact.html">Kontakt</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        
+        <section class="hero-1  hero-contact">
+            <section class="hero-1-section">
+
+                <section class="logga-outline-section">
+                </section>
+
+                <h1 class="hero-1-h1">Kontakt</h1>
+
+            </section>
+        </section>
+
+        <div class="contact-section">
+            <div class="contact__inner">
+
+                <section class="contact__message">
+                    <h2>Kontakta oss</h2>
+                    <form class="contact__form" action="" method="post">
+                        <div class="input__row input__row--radio">
+                            <div class="input__radio">
+                                <input type="radio" name="contactas" id="privatperson" value="privatperson">
+                                <label for="privatperson">Privatperson</label>
+                            </div>
+                            <div class="input__radio">
+                                <input type="radio" name="contactas" id="företag" value="företag">
+                                <label for="företag">Företag</label>
+                            </div>
+                        </div>
+                        <div class="input__row">
+                            <input class="contact__input" type="text" name="first-name" placeholder="Förnamn*" required>
+                            <input class="contact__input" type="text" name="last-name" placeholder="Efternamn*" required>
+                        </div>
+                        <div class="input__row">
+                            <input class="contact__input" type="text" name="telefon" placeholder="Telefonnummer*" required>
+                            <input class="contact__input" type="email" name="e-post" placeholder="E-post address*" required>
+                        </div>
+                        <input class="contact__input" type="text" name="title" placeholder="Titel">
+                        <textarea class="contact__input" name="message" cols="30" rows="7" placeholder="Meddelande*" required></textarea>
+                        <input class="contact__submit" type="submit" name="submit" value="Skicka">
+                    </form>
+                    <p class="contact__conditions">När du fyller i dina uppgifter ovan kommer dina personuppgifter behandlas enligt vår dataskyddspolicy.</p>
+                </section>
+    
+                <section class="contact__address">
+                    <img src="main-images/address.jpg" alt="en gata" class="address__image">
+                    <div class="address__text">
+                        <h3>Lantbruksmäklarna</h3>
+                        <p>
+                            Fornäng 2<br>
+                            590 60 Ljungsbro<br>
+                           telefon: (+46) 013 290 9697<br>
+                            e-post: <a href="mailto:">info@lantbruksmaklarna.se</a>
+                        </p>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+
+        <!-- <div class="back-to-top">
+            <a class="back-to-top-a" href="#header-id">Tillbaka Till Toppen </a>
+        </div> -->
+        
+        <footer class="footer">
+
+            <section class="footer__top">
+
+                <section class="logga">
+                    <a href="index.html"><img src="main-images/Lantbruksmaklarna-footer.png" alt="landbruksmäklarna-logga"></a>
+                </section>
+                
+                <nav class="navigation footer__nav">
+                    <ul class="footer__list">
+                        <li><a href="index.html">Hem</a></li>
+                        <li><a href="buy.html">Köpa Fastighet</a></li>
+                        <li><a href="sell.html">Sälja Fastighet</a></li>
+                        <li><a href="tillsalu.html">Fastigheter Till Salu</a></li>
+                        <li><a href="contact.html">Kontakt</a></li>
+                    </ul>
+                </nav>
+                
+                <ul class="social">
+                    <li><a href=""><img class="social__icon" src="social-icons/facebook.svg" alt="facebook"></a></li>
+                    <li><a href=""><img class="social__icon" src="social-icons/github.svg" alt="github"></a></li>
+                    <li><a href=""><img class="social__icon" src="social-icons/linkedin.svg" alt="linkedin"></a></li>
+                    <li><a href=""><img class="social__icon" src="social-icons/youtube.svg" alt="youtube"></a></li>
+                </ul>
+
+            </section>
+
+            <p class="copyright">&#169;2023 Lantbruksmäklarna, alla rättigheter reserverade.</p>    
+
+        </footer>
+
+    </section>
+
+</body>
+</html>

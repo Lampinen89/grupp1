@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: var(--regular-font);
+}
+
+h2, h3 {
+    font-family: var(--title-font);
+    color: var(--blue-bg-color);
+    position: relative;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h2::after,
+h3::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 5px;
+    background-color: var(--green-bg-color);
+    position: absolute;
+    margin: 1rem auto;
+}
+
+input,
+textarea {
+    font-family: var(--regular-font);
+    font-size: 1rem;
+}
+
+input:focus,
+textarea:focus {
+    border: 1px solid transparent;
+    outline: 2px solid var(--blue-bg-color);
+    
+}
+
+input[type="radio"]:focus {
+    outline: none;
+}
+
+input::placeholder,
+textarea::placeholder,
+input[value] {
+    font-family: var(--regular-font);
+    font-size: 1rem;
+}
+
+img {
+    margin: 0;
+    display: block;
+}
+
+.contact-section {
+    display: grid;
+    grid-template-columns: [full-start] minmax(30px, 1fr) [inner-start] minmax(0, 1920px) [inner-end] minmax(30px, 1fr) [full-end];
+}
+
+.contact__inner {
+    grid-column: inner;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact__message {
+    margin-top: 10rem;
+    width: 50%;
+}
+
+.contact__form {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.input__row {
+    display: flex;
+    gap: 1rem;
+}
+
+.contact__input {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #d5d5d5;
+}
+
+.contact__submit {
+    padding: 1rem;
+    max-width: 180px;
+    width: 100%;
+    border-radius: 30px;
+    color: var(--main-bg-color);
+    background-color: var(--green-bg-color);
+    margin: 0 auto;
+    transition: all 0.3s;
+}
+
+.contact__submit:hover {
+    opacity: 0.7;
+}
+
+.contact__conditions {
+    font-size: 0.8em;
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.contact__address {
+    margin-top: 10rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 3rem;
+}
+
+.address__image {
+    max-width: 400px;
+    width: 100%;
+}
+
+.address__text {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.address__text p {
+    margin-top: 3rem;
+    line-height: 2;
+}
+
+.address__text p a:hover {
+    color: var(--green-bg-color);
+}
