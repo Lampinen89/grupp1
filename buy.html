@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/buy.css">
     <link rel="stylesheet" href="css/buymedia.css">
+    <link rel="stylesheet" href="css/variables.css">
     <title>Document</title>
 </head>
 <body>
@@ -14,13 +15,12 @@
         <section class="logga">
            <a href="index.html"><img src="main-images/logga.png" alt="landbruksmäklarna-logga"></a>
         </section>
-        <nav class="navigation">
+        <nav class="navigation-buy">
             
             <ul>
-              <!--   <li><a href="index.html">Hem</a></li> -->
-                <li><a class="a-hover" href="About/about.html">Köpa Fastighet</a></li>
-                <li><a class="a-hover" href="prislista.html">Sälja Fastighet</a></li>
-                <li><a class="a-hover" href="prislista.html">Fastigheter Till Salu</a></li>
+                <li><a class="a-hover" href="buy.html">Köpa Fastighet</a></li>
+                <li><a class="a-hover" href="salja-fastigheter/salja-fastigheter.html">Sälja Fastighet</a></li>
+                <li><a class="a-hover" href="till-salu.html">Fastigheter Till Salu</a></li>
                 <li><a class="a-hover" href="contact.html">Kontakt</a></li>
             </ul>
         </nav>
@@ -30,10 +30,10 @@
             <section class="logga-outline-section">
                 
             </section>
-            <h1 class="hero-1-h1">När du vill köpa din drömfastighet</h1>
+            <h1 class="hero-1-h1-buy">När du vill köpa din drömfastighet</h1>
             <section class="button-section">
-                <a href="#" class="button">Fastigheter till salu</a>
-                <a href="#" class="button">Sälja Fastighet</a>
+                <a href="till-salu.html" class="button">Fastigheter till salu</a>
+                <a href="salja-fastigheter/salja-fastigheter.html" class="button">Sälja Fastighet</a>
             </section>
         </section>
     </hero>
@@ -49,8 +49,9 @@
         <div class="flex-column1"><img src="main-images/housewater.jpg" class="flex-pic" alt="Ett rött hus bortanför vatten">
         </div>    
         <div class="flex-column2">
-            <h2><a class="section2-link" href="##">Fastigheter till salu</a></h2>
-                <p>Suspendisse pulvinar dui lectus. Mauris ultricies enim in luctus vehicula. Aenean fringilla iaculis metus mollis faucibus. Integer est elit, malesuada et leo eget, scelerisque laoreet orci. Etiam pretium bibendum metus. Vivamus congue iaculis nunc fringilla lobortis. Ut faucibus augue sit amet commodo tincidunt. Cras sit amet mi eu metus euismod venenatis ut eget est. Nunc ac nulla eget odio sodales faucibus nec non velit. Nam eleifend consequat dictum. Praesent mollis eleifend sodales.</p></div>        
+            <h2><a class="section2-link" href="till-salu.html">Fastigheter till salu</a></h2>
+                <p>Suspendisse pulvinar dui lectus. Mauris ultricies enim in luctus vehicula. Aenean fringilla iaculis metus mollis faucibus. Integer est elit, malesuada et leo eget, scelerisque laoreet orci. Etiam pretium bibendum metus. Vivamus congue iaculis nunc fringilla lobortis. Ut faucibus augue sit amet commodo tincidunt. Cras sit amet mi eu metus euismod venenatis ut eget est. Nunc ac nulla eget odio sodales faucibus nec non velit. Nam eleifend consequat dictum. Praesent mollis eleifend sodales.</p>
+        </div>        
             
     </section>
 
@@ -79,9 +80,35 @@
         </div>
     </section>
 	
-	<footer class="footer">
-                &#169; 2023
-                
-            </footer>
+    <footer class="footer">
+
+        <section class="footer__top">
+
+            <section class="logga">
+                <a href="index.html"><img src="main-images/Lantbruksmaklarna-footer.png" alt="landbruksmäklarna-logga"></a>
+            </section>
+            
+            <nav class="navigation footer__nav">
+                <ul class="footer__list">
+                    <li><a href="index.html">Hem</a></li>
+                    <li><a href="buy.html">Köpa Fastighet</a></li>
+                    <li><a href="sell.html">Sälja Fastighet</a></li>
+                    <li><a href="tillsalu.html">Fastigheter Till Salu</a></li>
+                    <li><a href="contact.html">Kontakt</a></li>
+                </ul>
+            </nav>
+            
+            <ul class="social">
+                <li><a href=""><img class="social__icon" src="social-icons/facebook.svg" alt="facebook"></a></li>
+                <li><a href=""><img class="social__icon" src="social-icons/github.svg" alt="github"></a></li>
+                <li><a href=""><img class="social__icon" src="social-icons/linkedin.svg" alt="linkedin"></a></li>
+                <li><a href=""><img class="social__icon" src="social-icons/youtube.svg" alt="youtube"></a></li>
+            </ul>
+
+        </section>
+
+        <p class="copyright">&#169;2023 Lantbruksmäklarna, alla rättigheter reserverade.</p>    
+
+    </footer>
 	</body>
 </html>

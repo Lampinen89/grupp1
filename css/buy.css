@@ -1,6 +1,35 @@
 
+.hero-1-h1-buy {
+    color: white;
+    font-size: 60px;
+    font-family: var(--title-font);
+}
+.navigation-buy {
+    margin-top: 6%;
+    height:10%;
+    width: 100%;
+    justify-content:center;
+    align-items: flex-end;
+    display: flex;  
+    color:var(--blue-bg-color); 
+}
+.navigation-buy > ul {
+    margin: 0;
+    padding: 0;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+}
+
+.navigation-buy ul li a {
+    padding: 10px;
+    text-decoration: none;
+}
+
 .h2 {
-    color: #102e4e;
+    color: var(--blue-bg-color);
     font-family: var(--title-font);
 }
 
@@ -34,6 +63,7 @@
 .flex-column2 {
     width: 50%;
     padding: 60px;
+    font-family: var(--regular-font);
 }
 
 .flex-column1 {
@@ -49,7 +79,8 @@
 
 .section2-link {
     text-decoration: none;
-    color:#102e4e;
+    color:var(--blue-bg-color);
+    font-family:var(--title-font);
 }
 
 .section3 {
@@ -58,7 +89,8 @@
     flex-flow: row wrap;
     padding: 20px;
     align-items: center;
-    background-color: #f2f2f2;
+    background-color: var(--second-bg-color);
+    font-family: var(--regular-font);
 }
 
 .help {
@@ -70,9 +102,8 @@
 
 
 .h3 {
-    color: #2E533A /* var(bg-color-green) */;
+    color:var(--green-bg-color);
     margin: 10px;
-
 }
 
 .section3a {
