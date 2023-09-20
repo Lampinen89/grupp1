@@ -93,14 +93,22 @@
     margin-top: 1%;
 }
 
-.main-section-1 {
+/* .main-section-1 {
     background-image: url(../../main-images/main-section-img.jpg);
+} */
+
+.main-section-1-img {
+    width: 100%;
 }
 
-.article-section-2 {
+.article-section-2-img {
+    width: 100%;
+}
+
+/* .article-section-2 {
     background-image: url(../../main-images/rundbal.jpg);
 
-}
+} */
 
 .end-section-1 {
     background-image: url(../../main-images/main-section-img.jpg);
