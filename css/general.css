@@ -182,6 +182,7 @@ li > a {
     width: 100%;
     color: var(--main-bg-color);
     align-self: center;
+    font-family: var(--regular-font);
 }
 
 .footer__top {
