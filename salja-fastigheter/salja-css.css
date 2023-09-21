@@ -1,4 +1,8 @@
 /* @media (min-width: 1080px) { */
+    .hero-1 {
+        background-image: linear-gradient(rgba(41, 40, 40, 0.5), rgba(27, 27, 27, 0.5)), url(../main-images/gulthus.jpg);
+    }
+
     .section {
         display: flex;
         padding-left: 2%;
@@ -172,7 +176,7 @@
         }
 
         .hero-1 {
-            background-image: linear-gradient(rgba(41, 40, 40, 0.5), rgba(27, 27, 27, 0.5)), url(../main-images/hero-img.jpg);
+            background-image: linear-gradient(rgba(41, 40, 40, 0.5), rgba(27, 27, 27, 0.5)), url(../main-images/gulthus.jpg);
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
