@@ -34,10 +34,6 @@ h3 {
     border: 0;
 }
 
-#till-salu .logga {
-    margin: 0;
-}
-
 #sales-search {
     background: var(--blue-bg-color);
     color: #FFF;
@@ -153,10 +149,6 @@ h3 {
 
 @media screen and ( max-width: 960px )  {
 
-    header.header img {
-        width: 200px;
-    }
-
     header.header nav.navigation a {
         font-size: 10px;
     }
@@ -188,9 +180,7 @@ h3 {
 }
 
 @media screen and ( max-width: 768px )  {
-    header.header img {
-        width: 100px;
-    }
+
 
     #items {
         grid-template-columns: repeat(1, 1fr);

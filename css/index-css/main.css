@@ -38,7 +38,7 @@
 .main-button-1,
 .main-button-2
                  {
-    background-color: #2E533A;
+    background-color: var(--green-bg-color);
     border-radius: 10px;
     color: white;
     padding: 20px;
@@ -47,7 +47,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--regular-font);
     margin: 6% 2%;
     cursor: pointer;
     gap: 10%;
@@ -57,7 +57,7 @@
 
 .article1-button-1,
 .end-button-1 {
-    background-color: #2E533A;
+    background-color: var(--green-bg-color);
     align-self: flex-start;
     border-radius: 10px;
     color: white;
@@ -66,7 +66,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--regular-font);
     margin-top: 6%;
     cursor: pointer;
     
@@ -141,8 +141,8 @@
 .article-section-h2,
 .article-grid-h2,
 .end-section-h2 {
-    color: #102e4e;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--blue-bg-color);
+    font-family: var(--title-font);
     font-size: 40px;
     
 }
@@ -174,7 +174,7 @@
 .end-section-p-1 {
     font-size: 18px;
     margin-top: 8%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--regular-font);
 }
 
 .main-section-p-2,
@@ -182,7 +182,7 @@
 .end-section-p-2 {
     font-size: 18px;
     margin-top: 4%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--regular-font);
 }
 
 
@@ -232,7 +232,7 @@
   .column-1,
   .column-2,
   .column-3 {
-    background-color: #102e4e;
+    background-color: var(--blue-bg-color);
     color: white;
     min-height: 100%;
     box-shadow: 10px 10px 5px rgb(230, 227, 227);
@@ -283,15 +283,19 @@
     
   }
 
-  .col-1-h2,
+  
   .col-1-p,
-  .col-2-h2,
   .col-2-p,
-  .col-3-h2,
   .col-3-p {
     align-self: center;
     padding: 3px 20px 20px 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--regular-font);
+  }
+
+  .col-1-h2,
+  .col-2-h2,
+  .col-3-h2 {
+    font-family: var(--title-font);
   }
 
   .back-to-top {
@@ -305,11 +309,11 @@
 
 .back-to-top-a {
     align-self: flex-end;
-    color:#2E533A;
+    color:var(--green-bg-color);
     font-size: 18px;
     padding: 10px;
     text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--regular-font);
 }
 
 
