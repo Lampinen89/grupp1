@@ -7,6 +7,7 @@
         padding-bottom: 2rem;
         margin: auto auto auto auto;
         align-items: center;
+        font-family: var(--regular-font)
     }
 
     .section--img-right {
@@ -60,6 +61,7 @@
         grid-template-columns: auto auto auto;
         grid-template-rows: auto;
         grid-gap: 3%;
+        font-family: var(--regular-font)
     }
 
     /* .tiny-box{
