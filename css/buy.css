@@ -76,12 +76,6 @@
     object-fit: contain;
 }
 
-.section2-link {
-    text-decoration: none;
-    color:var(--blue-bg-color);
-    font-family:var(--title-font);
-}
-
 .section3 {
     display:flex;
     justify-content: center;
@@ -113,3 +107,11 @@
     flex-wrap:wrap;
 }
 
+.back-to-top {
+    margin-top:0%;
+    background-color: var(--second-bg-color);
+}
+
+.footer {
+    margin:0%;
+}
