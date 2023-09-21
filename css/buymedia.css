@@ -49,11 +49,25 @@
         max-width: 768px;
         justify-content: center;
     }
-    
+
+    .navigation-buy {
+        display:none;
+    }
+ 
     .hero-1 {
         background-size: cover;
         height: fit-content;
     }
+
+    .hero-1-h1-buy {
+        text-align: center;
+    }
+
+    .hero-1-section {
+        display: flex;
+        flex-direction: column;
+    }
+    
     .grid-1 {
         grid-column: 1 / 6;
         margin-right: 5px;
