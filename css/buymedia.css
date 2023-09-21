@@ -10,16 +10,14 @@
         height: fit-content;
     }
 
+    .hero-1-h1-buy {
+        text-align: center;
+    }
+
     .grid-container {
-        padding: 30px;
-    }
-
-    .grid-1 {
-        grid-column: 1 / 2;
-    }
-
-    .grid-pic {
-        grid-column: 2 / 3;
+        padding: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 5px;
     }
 
     .flex-column2 {
@@ -28,19 +26,12 @@
         justify-content: center;
         align-content: center;
     }
-
     .flex-column1 {
         display:none;
     }
-
-    .flex-row {
-        flex-direction: column;
-        justify-self: flex-start;
-    }
-
     .help {
-        margin: 5px;
-        width: 40%;
+        width: 300px;
+        margin: 15px;
     }
 } 
 
