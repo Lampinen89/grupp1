@@ -102,19 +102,14 @@
 }
 
 
-
-
 /* Ipad Portrait */
 @media only screen and (max-width: 960px) and (min-width: 769px) {
     
 
     #wrapper {
         display: flex;
-        /* min-width: 769px;
-        max-width: 960px; */
         width: 100%;
         justify-content: center;
-        
         
     }
 
@@ -324,3 +319,10 @@
     display: none;
   }
 }
+
+/* XL screen */
+
+/* @media only screen and (max-width: ) and (min-width: ) {
+
+  
+} */
