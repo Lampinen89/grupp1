@@ -32,6 +32,7 @@
     color: var(--blue-bg-color);
     font-family: var(--title-font);
     margin-bottom: 2rem;
+    font-size: 2rem;
 }
 
 h2::after {
