@@ -140,9 +140,7 @@ li > a {
     align-items: center;
 }
 
-.button,
-.main-button-1,
-.main-button-2{
+.button {
     background-color: var(--green-bg-color);
     border-radius: 10px;
     color: white;
@@ -155,7 +153,15 @@ li > a {
     margin: 6% 2%;
     cursor: pointer;
     gap: 10%;
+    border: solid 1px transparent;
+    transition: background-color 0.2s, color 0.2s, border 0.2s;
 } 
+
+.button:hover {
+    background-color: var(--main-bg-color);
+    color: var(--green-bg-color);
+    border: solid 1px var(--green-bg-color);
+}
 
 .back-to-top {
     margin-top: 6%;
