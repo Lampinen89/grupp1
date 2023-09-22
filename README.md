@@ -2,4 +2,4 @@
 
 Our first group project on this two year fullstack course.
 A website for a makeshift real estate agency that focuses on agricultural properties.
-No framworks aloud, HTML and CSS only.
+No frameworks allowed, HTML and CSS only.
