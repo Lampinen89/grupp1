@@ -140,6 +140,7 @@
 
 .article-grid-h2 {
     margin-left: 10%;
+    margin-top: 8%;
 }
 
 
@@ -277,10 +278,13 @@
   .object-3-img,
   .main-img-1,
   .article-img-1,
-  .end-img-1 {
+  .end-img-1  {
     width: 100%;
+    object-fit: cover;
     height: auto;
   }
+
+
 
   
   .object-1-img,
