@@ -67,11 +67,6 @@ h3 {
     gap: 2rem;
 }
 
-.search-container input {
-    font-size: 1rem;
-    width: 100%;
-}
-
 .search-container button {
     align-self: flex-start;
     padding: 1.25rem 4rem;
