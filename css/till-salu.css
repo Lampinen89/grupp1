@@ -164,6 +164,10 @@ h2::after {
     font-family: var(--title-font), sans-serif;
 }
 
+#contact-info .contact-text h2 {
+    color: var(--blue-bg-color);
+}
+
 form#contact-button {
     margin-top: 1rem;
     padding: 0.75rem 0;
