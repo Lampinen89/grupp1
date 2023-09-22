@@ -42,30 +42,6 @@ h3::after {
     margin: 1rem auto;
 }
 
-input,
-textarea {
-    font-family: var(--regular-font);
-    font-size: 1rem;
-}
-
-input:focus,
-textarea:focus {
-    border: 1px solid transparent;
-    outline: 2px solid var(--blue-bg-color);
-    
-}
-
-input[type="radio"]:focus {
-    outline: none;
-}
-
-input::placeholder,
-textarea::placeholder,
-input[value] {
-    font-family: var(--regular-font);
-    font-size: 1rem;
-}
-
 img {
     margin: 0;
     display: block;
