@@ -15,10 +15,9 @@
                 <section class="logga">
                    <a href="index.html"><img src="main-images/logga.png" alt="lantbruksmäklarna-logga"></a>
                 </section>
+
                 <nav class="navigation">
-                    
                     <ul>
-                      <!--   <li><a href="index.html">Hem</a></li> -->
                         <li><a class="a-hover" href="buy.html">Köpa Fastighet</a></li>
                         <li><a class="a-hover" href="salja-fastigheter/salja-fastigheter.html">Sälja Fastighet</a></li>
                         <li><a class="a-hover" href="till-salu.html">Fastigheter Till Salu</a></li>
@@ -27,23 +26,25 @@
                 </nav>
             </header>
 
-
         <section id="sales-search">
             <div class="container">
                 <form action="till-salu.html">
+                    
                     <h2>Sök fastighet</h2>
+                    
                     <div class="search-container">
                         <div>
-                            <input type="text" placeholder="Ange kommun, län, ort eller område">
+                            <input type="text" placeholder="Ange kommun, län, ort eller område" name="sales-input">
                             <div class="search-filter">
-                                <input type="number" placeholder="Pris (min)">
-                                <input type="number" placeholder="Pris (max)">
-                                <input type="number" placeholder="Boyta (min)">
-                                <input type="number" placeholder="Boyta (max)">
+                                <input type="number" placeholder="Pris (min)" name="sales-input" min="0"> 
+                                <input type="number" placeholder="Pris (max)" name="sales-input" min="0"> 
+                                <input type="number" placeholder="Boyta (min)" name="sales-input" min="0">
+                                <input type="number" placeholder="Boyta (max)" name="sales-input" min="0">
                             </div>
                         </div>
                         <button>Sök!</button>
                     </div>
+
                 </form>
             </div>
         </section>
@@ -177,26 +178,29 @@
         
         <section id="contact-info">
             <div class="container">
+
                 <div>
                     <img src="main-images/object-1.jpg" alt="">
                 </div>
+
                 <div class="contact-text">
                     <h2>Vill du veta mer om våra tillgängliga fastigheter?</h2>
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                        when an unknown printer took a galley of type and scrambled it to make a 
-                        type specimen book. 
-                        </p>
-                        <p>It has survived not only five centuries, but also the 
-                        leap into electronic typesetting, remaining essentially unchanged. 
-                        It was popularised in the 1960s with the release of Letraset sheets 
-                        containing Lorem Ipsum passages, and more recently with desktop publishing 
-                        software like Aldus PageMaker including versions of Lorem Ipsum.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Maecenas maximus dui suscipit arcu eleifend tincidunt.
+                        Ut sed nisi purus. Cras sit amet lectus lacus.
+                        In malesuada congue tincidunt. Duis vestibulum sed ante nec tincidunt.
                     </p>
-                    <form action="contact.html">
+                    <p>
+                        Mauris sed magna nisl. Vestibulum molestie dignissim nunc,
+                        ut placerat dolor malesuada egestas.
+                        Duis feugiat felis felis, eu viverra ligula posuere id.
+                    </p>
+
+                    <form action="contact.html" id="contact-button">
                         <button>Kontakta oss</button>
                     </form>
+
                 </div>
             </div>
         </section>
